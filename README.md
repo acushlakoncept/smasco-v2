@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://acushlakoncept.github.io/smasco/)
+[Live Demo Link](https://acushlakoncept.github.io/smasco-v2/)
 
 ## Authors
 
