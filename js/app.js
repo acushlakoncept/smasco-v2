@@ -48,8 +48,11 @@ saveImg.addEventListener('click', event => {
     html2canvas(exportArea, {
         logging: true,
         letterRendering: 1,
-        allowTaint: true,
-        useCORS: true
+        allowTaint: false,
+        useCORS: true,
+        width: 600,
+        height: 600,
+        canvas: null,
     }).then(result => {
         let img = result.toDataURL("image/jpeg");
         // let newData = img.replace(/^data:image\/png/, "data:application/octet-stream");
