@@ -1,0 +1,90 @@
+/* #imgprev {
+    width: 600px;
+    height: auto;
+} */
+
+@font-face {
+    font-family: "Mount";
+    src: url("mount.otf");
+}
+
+.profilecanva {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#profilename,
+#profilelname,
+#classof,
+img#imgprev,
+img#mainimg {
+    position: absolute;
+}
+
+
+/* img#imgprev {
+    left: 7.5rem;
+    top: 9rem;
+    width: 21rem;
+} */
+
+img#imgprev {
+    left: 30%;
+    top: 55%;
+    width: 23rem;
+    transform: translate(-50%, -50%);
+}
+
+img#mainimg {
+    left: 0;
+    top: 0;
+    z-index: 1;
+    /* width: 37.5rem; */
+    width: 100%;
+}
+
+#profilename,
+#profilelname,
+#classof {
+    z-index: 2;
+    font-weight: 700;
+    color: #000;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
+    text-align: left;
+}
+
+p#profilename,
+p#profilelname,
+p#classof {
+    /* transform: translate(-50%, -50%); */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    left: 52%;
+}
+
+p#profilename {
+    top: 45%;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+p#profilelname {
+    top: 47%;
+    font-size: 4rem;
+    color: #218261;
+    letter-spacing: 0.1rem;
+    font-family: 'Mount', sans-serif;
+}
+
+p#classof {
+    top: 60%;
+    font-size: 1.5rem;
+}
+
+.space {
+    height: 40px;
+}
