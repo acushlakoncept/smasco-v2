@@ -24,17 +24,10 @@ img#mainimg {
     position: absolute;
 }
 
-
-/* img#imgprev {
-    left: 7.5rem;
-    top: 9rem;
-    width: 21rem;
-} */
-
 img#imgprev {
     left: 30%;
     top: 55%;
-    width: 23rem;
+    width: 26rem;
     transform: translate(-50%, -50%);
 }
 
@@ -73,8 +66,8 @@ p#profilename {
 }
 
 p#profilelname {
-    top: 47%;
-    font-size: 4rem;
+    top: 49%;
+    font-size: 3.5rem;
     color: #218261;
     letter-spacing: 0.1rem;
     font-family: 'Mount', sans-serif;
