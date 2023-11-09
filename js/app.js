@@ -1,12 +1,10 @@
 const profileImg = document.getElementById('profileimg');
 const nameInput = document.getElementById('name');
-const lnameInput = document.getElementById('sname');
 const yearInput = document.getElementById('grad');
 
 const imgPrev = document.getElementById('imgprev');
 const classof = document.getElementById('classof');
 const profileName = document.getElementById('profilename');
-const profileLname = document.getElementById('profilelname');
 
 const saveImg = document.getElementById('btnConvertHTML');
 const exportArea = document.getElementById('exportarea');
@@ -21,17 +19,12 @@ nameInput.addEventListener('keyup', (event) => {
     profileName.textContent = event.target.value;
 })
 
-lnameInput.addEventListener('keyup', (event) => {
-    profileLname.textContent = event.target.value;
-})
-
 yearInput.addEventListener('keyup', (event) => {
-    classof.textContent = `${ event.target.value}`;
+    console.log('event.target.value')
+    classof.textContent = event.target.value;
 })
 
 let getCanvas;
-
-
 
 function takeShot() {
     html2canvas(exportArea).then(function(canvas) {
@@ -39,9 +32,6 @@ function takeShot() {
         getCanvas = canvas;
     });
 }
-
-
-// saveImg.addEventListener('click', takeShot);
 
 
 saveImg.addEventListener('click', event => {
