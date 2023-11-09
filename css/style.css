@@ -25,9 +25,9 @@ img#mainimg {
 }
 
 img#imgprev {
-    left: 30%;
-    top: 55%;
-    width: 26rem;
+    left: 72%;
+    top: 44%;
+    width: 24rem;
     transform: translate(-50%, -50%);
 }
 
@@ -46,7 +46,7 @@ img#mainimg {
     font-weight: 700;
     color: #000;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     text-align: left;
 }
 
@@ -56,26 +56,28 @@ p#classof {
     /* transform: translate(-50%, -50%); */
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    left: 52%;
-}
-
-p#profilename {
-    top: 45%;
-    font-size: 2rem;
+    left: 10%;
     text-transform: uppercase;
 }
 
+p#profilename {
+    top: 49.8%;
+    font-size: 1.2rem;
+}
+
 p#profilelname {
-    top: 49%;
-    font-size: 3.5rem;
+    top: 49.5%;
+    font-size: 1.5rem;
     color: #218261;
-    letter-spacing: 0.1rem;
-    font-family: 'Mount', sans-serif;
+    /* letter-spacing: 0.1rem;
+    font-family: 'Mount', sans-serif; */
+    left: 26%;
 }
 
 p#classof {
-    top: 60%;
-    font-size: 1.5rem;
+    top: 55%;
+    left: 33%;
+    font-size: 1.3rem;
 }
 
 .space {
