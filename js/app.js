@@ -26,7 +26,7 @@ lnameInput.addEventListener('keyup', (event) => {
 })
 
 yearInput.addEventListener('keyup', (event) => {
-    classof.textContent = `Class of ${ event.target.value}`;
+    classof.textContent = `${ event.target.value}`;
 })
 
 let getCanvas;
